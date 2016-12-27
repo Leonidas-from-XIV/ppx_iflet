@@ -1,0 +1,13 @@
+opam-version: "1.2"
+maintainer: "Marek Kubica <marek@xivilization.net>"
+author: "Marek Kubica <marek@xivilization.net>"
+homepage: "https://github.com/Leonidas-from-XIV/ppx_iflet"
+bug-reports: "https://github.com/Leonidas-from-XIV/ppx_iflet/issues"
+dev-repo: "https://github.com/Leonidas-from-XIV/ppx_iflet.git"
+depends: [
+  "ocamlfind" {build}
+  "ocamlbuild" {build}
+  "topkg" {build} ]
+build: [
+  "ocaml" "pkg/pkg.ml" "build"
+          "--pinned" "%{pinned}%" ]

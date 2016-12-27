@@ -1,0 +1,4 @@
+description = "A camltastic port of if-let from Clojure"
+requires = ""
+ppx = "ppx_iflet"
+version = "%%VERSION%%"
