@@ -1,4 +1,4 @@
-# `ppx_iflet`
+# ppx\_iflet - A camltastic port of Clojure's `if-let` syntax
 
 A `ppx` syntax extension for OCaml implementing `if-let` from Clojure in OCaml.
 Clojure's `if-let` form is a convenient merge of `if` and `let`, evaluating an
